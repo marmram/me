@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.bg-blue {
+    background-color: rgb(3, 85, 204);
+}
+
 body {
     width: 100%;
     font-family: "Roboto", sans-serif;
@@ -25,9 +29,9 @@ a {
 }
 
 a:hover {
-    color: red;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    color: #3d2edc;
+    border-top: 1px solid #3d2edc;
+    border-bottom: 1px solid #3d2edc;
 }
 
 header {
@@ -58,6 +62,11 @@ span {
     justify-content: space-between;
     padding: 10px 20px 10px 20px;
     max-width: 100%;
+    background-color: rgb(200, 220, 255);
+}
+
+.logo-nav h1 {
+    color: #3d2edc;
 }
 
 .nav {
@@ -71,9 +80,7 @@ span {
     cursor: pointer;
 }
 
-.nav li:hover {
-    color: red;
-}
+
 
 .btn {
     background-color: orange;
@@ -224,7 +231,7 @@ span {
 
 .btn-b {
     padding: 10px 20px;
-    background-color: rgb(41, 27, 241);
+    background-color: rgb(3, 85, 204);
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -253,9 +260,11 @@ span {
     justify-content: center;
     gap: 20px;
 }
-.mt-10{
+
+.mt-10 {
     margin-top: 10px;
 }
+
 .sec4-boxes {
     display: flex;
     flex-direction: row;
@@ -283,88 +292,196 @@ span {
 .b-item h6 {
     margin-top: 10px;
 }
-.sec5{
-padding: 50px 0;
+
+.sec5 {
+    padding: 50px 0;
 }
-.sec5-c{
+
+.sec5-c {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
-.sec5-boxes{
+
+.sec5-boxes {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
-.box{
+
+.box {
     box-shadow: 2px 2px 10px rgb(196, 194, 194);
     padding: 30px;
     width: 100%;
 }
-.b-p1{
+
+.b-p1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
-.b-p1 img{
+
+.b-p1 img {
     border-radius: 50%;
 }
-.qoute-icon{
+
+.qoute-icon {
     color: #494949;
     font-size: 28px;
 }
-.stars i{
+
+.stars i {
     color: #fff200;
 }
-.rate span{
+
+.rate span {
     color: #000;
 }
-.flex-cu{
+
+.flex-cu {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 15px;
 }
-.slider-btn{
+
+.slider-btn {
     margin: 20px;
 }
-.slider-btn button{
+
+.slider-btn button {
     padding: 10px 15px;
     color: #fff;
-    background-color:  rgb(41, 27, 241) ;
-    
+    background-color: rgb(3, 85, 204);
     border: none;
     margin: 0 10px;
- }
- .slider-btn button:hover{
-        background-color: rgb(37, 28, 165);
+}
 
- }
- .sec6{
+.slider-btn button:hover {
+    background-color: rgb(37, 28, 165);
+
+}
+
+.sec6 {
     padding: 50px;
- }
- .sec6-c{
-   width: 100%;
+}
 
- }
- .form{
+.sec6-c {
+    width: 100%;
+
+}
+
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     gap: 20px;
- }
- .form input , .form textarea{
-   width: 100%; 
-   padding: 8px;
-   border: none;
-   box-shadow:2px 2px 10px rgb(196, 194, 194);
- }
- .send{
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    box-shadow: 2px 2px 10px rgb(196, 194, 194);
+}
+
+.send {
     margin-top: 20px;
- }
+}
+
+.contact {
+    position: relative;
+}
+
+.foot {
+    background-color: rgb(10, 15, 67);
+    text-align: center;
+    gap: 50px;
+    padding: 50px 0;
+
+}
+
+.foot h2 {
+    font-weight: 550;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.foot p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.foot i {
+    color: #fff;
+    font-size: 24px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.contact-icon {
+    background-color: rgb(3, 85, 204);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.contact-icon:hover {
+    background-color: rgb(37, 28, 165);
+
+}
+
+
+
+/* خط بین دایره‌ها */
+.line {
+    width: 700px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    margin-bottom: 48px;
+    z-index: 1;
+}
+
+.con-icons {
+    gap: 10px;
+}
+
+
+
+.con-icons i:hover {
+    color: #3d2edc;
+}
+
+.hr {
+    background-color: #fff;
+    width: 70%;
+    height: 1px;
+}
+
+.copyright-i {
+    margin-bottom: 5px;
+    margin-right: 6px;
+}
